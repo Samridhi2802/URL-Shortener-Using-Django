@@ -109,3 +109,32 @@ A working URL shortener application was successfully developed using Django's MV
 
                                                       Figure: Command Prompt
 
+
+# Conclusion
+
+This project presented a URL shortener service built using the Django web framework. The objectives of the project were met by:
+
+
+•	Developing a web application that can shorten long URLs submitted by users. The shortened URLs are stored in a database along with the original URLs.
+
+
+•	Keeping track of the click count for each shortened URL. The application stores the number of times each short link has been clicked.
+
+
+•	Allowing users to create custom shortened URLs containing their chosen text as the back half.
+
+
+The URL shortener was implemented using Django and a SQLite database. Django models were used to define the URL and click count models. Django forms were created to accept long URLs from users and generate custom shortened URLs.
+
+
+The project demonstrated how a simple yet useful web application can be developed using Django. The following were the key takeaways:
+
+
+•	Django provides many features out of the box for rapidly building web applications. The admin interface, models, forms, views, and URLs made development straightforward.
+
+
+•	The MVT (Model-View-Template) architecture of Django helps keep code organized and testable.
+
+
+•	The SQLite database was sufficient for the purposes of this project. However, Django also supports other databases like PostgreSQL.
+
