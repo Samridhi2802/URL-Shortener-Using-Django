@@ -1,0 +1,7 @@
+from django.urls import path
+from root.views import creatUrl,routeToURL
+
+urlpatterns=[
+    path('',creatUrl),
+    path('<slug:key>',routeToURL)
+]
